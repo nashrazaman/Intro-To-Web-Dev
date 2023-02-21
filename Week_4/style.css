@@ -1,0 +1,168 @@
+
+html, body{
+    background-color: #eab595;
+}
+
+.pp{
+    position: absolute;
+    background-color: #ed6335;
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 100px;    
+}
+
+.pp p{
+    position: relative;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 40px;
+}
+
+h1{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 550px;
+    font-size: 60px;
+}
+
+.am{
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 60;
+    margin-left: 850px;
+    margin-top: 300px;
+    color: #ed6335;  
+}
+
+.ed{
+    position: absolute;
+    background-color: #ed6335;
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 1050px;    
+}
+
+.ed p{
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.info{
+    position: absolute;
+    background-color: #ed6335;
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 700px;    
+}
+
+.info p{
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.resume{
+    background-color: #ed6335;
+    position: absolute;
+    width: 550px;
+    height: 650px;
+    margin-left: 700px;
+    margin-top: 700px;
+}
+
+.resume p{
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.box1{
+    position: absolute;
+    background-color: #ed6335;
+    width: 300px;
+    height: 150px;
+    margin-left: 500px;
+    margin-top: 1800px;
+}
+
+.box1 p{
+    position: relative;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+
+.box2{
+    position: absolute;
+    background-color: #ed6335;
+    width: 150px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 1600px;
+}
+
+.box2 p{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.box3{
+    position: absolute;
+    background-color: #ed6335;
+    width: 150px;
+    height: 100px;
+    margin-left: 500px;
+    margin-top: 1550px;
+}
+
+.box3 p{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.box4{
+    position: absolute;
+    background-color: #ed6335;
+    width: 150px;
+    height: 100px;
+    margin-left: 900px;
+    margin-top: 1600px;
+}
+
+.box4 p{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.box5{
+    position: absolute;
+    background-color: #ed6335;
+    width: 150px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 2000px;
+}
+
+.box5 p{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+
