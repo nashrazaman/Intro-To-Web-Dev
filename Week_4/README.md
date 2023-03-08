@@ -8,7 +8,9 @@ Concept/Theme of the website:
             ->Illustrator/photoshop
             ->p5.js (maybe?)
 
-
+Inspiration:
+    -> pinterest website
+    -> https://www.pinterest.com/naashraaa/website-inspo/
 
 Concepts we have learnt to make the website: 
     Hover -> I'll be using hover to enlarge the works I display on the website

@@ -1,0 +1,852 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Merriweather:wght@900&display=swap');
+html, body {
+    margin: 0;
+    background-color:#ffa97b;
+    font-family: 'Comfortaa', cursive;
+
+  }
+  
+  html {
+    background-size: cover;
+  }
+  
+  /* Nav Bar Styles */
+  
+  header {
+    width: 80%;
+    padding: 0 10%;
+    height: 50px;
+    position: fixed;
+    margin-bottom: 10px;
+    z-index: 10;
+    background-color: #2c6054;
+    z-index: 500;
+
+  }
+
+  header h1 {
+    color: #ffffff;
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    font-family: 'Rampart One', cursive;
+
+  }
+  
+  nav {
+    float: right;
+    display:inline-block;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  nav li {
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    display: inline-block;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    transition: all 1s;
+  }
+  
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color:white;
+  }
+  
+  /* nav a.active {
+    background-color: rgb(255, 255, 255, 0.5);
+    color:white;
+  } */
+
+  .image{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 260px;
+    border-radius: 30%;
+  }
+
+.me{
+    position: absolute;
+    border-radius: 30%;
+  }
+
+  .myFont{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -90px;
+    z-index: 100;
+  }
+
+  .myFont2{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -60px;
+    z-index: 100;
+  }
+
+  .description{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 740px;
+    font-size: 25px;
+    text-align: center;
+    color: #015363;
+  }
+  #hello{
+    position: absolute;
+    margin-top: 900px;
+  }
+
+  #resume{
+    position: absolute;
+    margin-top: 950px;
+    font-size: 15px;
+  }
+  #resume h1{
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 1000px;
+  }
+  .stars{
+    position: absolute;
+    margin-left: -200px;
+    margin-top: -200px;
+  }
+  .myFont3{
+    margin-left: 450px;
+    margin-top: -200px;
+  }
+  .myFont4{
+    position: absolute;
+    margin-left: -750px;
+    margin-top: 80px;
+  }
+  .myFont6{
+    position: absolute;
+    margin-top: -100px;
+    
+  }
+  .myFont7{
+    position: absolute;
+    margin-top: 300px;
+  }
+
+  #resume p{
+    font-family: 'Comfortaa', cursive;
+    color: #043752;
+    font-weight: 500;
+  }
+
+  .italics{
+    font-style: italic;
+  }
+
+  .bold{
+    font-weight: 700;
+  }
+
+  .LA{
+    border: 5px solid #c9421b;
+    padding: 10px;
+    position: absolute;
+    margin-left: 780px ;
+    margin-right: 10px;
+    margin-top: 1150px;
+    font-family: 'Comfortaa', cursive;
+    color: #043752;
+    font-weight: 500;
+    font-size: 15px;
+
+  }
+
+  .E{
+    border: 5px solid #c9421b;
+    padding: 10px;
+    z-index: 100;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  .S{
+    border: 5px solid #c9421b;
+    padding: 20px;
+    position: absolute;
+    margin-left: 900px ;
+    margin-right: 60px;
+    margin-top: 1450px;
+    font-family: 'Comfortaa', cursive;
+    color: #043752;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 0;
+    
+  }
+  #ill{
+    position: absolute;
+    margin-top: 1650px;
+  }
+
+  .myFont8{
+    position: absolute;
+    margin-top: 1700px;
+    margin-left: 500px;
+  }
+
+
+
+  .spiral1{
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: 200px;
+  }
+
+  .one .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 2000px;
+    margin-left: 200px;
+    text-align: center;
+    width: 400px;
+    height: 518px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s ease-in-out;
+  }
+  .one .mask span{
+    position: relative;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .one:hover .mask{
+    opacity: 1;
+  }
+
+  .poem{
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: 650px;
+  }
+
+  .two .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 2000px;
+    margin-left: 650px;
+    text-align: center;
+    width: 600px;
+    height: 464px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .two .mask span{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .two:hover .mask{
+    opacity: 1;
+  }
+
+  .kid{
+    position: absolute;
+    margin-top: 2550px;
+    margin-left: 100px;
+  }
+
+  .three .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 2550px;
+    margin-left: 100px;
+    text-align: center;
+    width: 600px;
+    height: 450px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .three .mask span{
+    position: relative;
+    margin-top: 160px;
+    margin-left: 130px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .three:hover .mask{
+    opacity: 1;
+  }
+  
+  .cork{
+    position: absolute;
+    margin-top: 2500px;
+    margin-left: 750px;
+  }
+
+  .four .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 2500px;
+    margin-left: 750px;
+    text-align: center;
+    width: 400px;
+    height: 618px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .four .mask span{
+    position: relative;
+    margin-top: 250px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .four:hover .mask{
+    opacity: 1;
+  }
+
+  .bi{
+    position: absolute;
+    margin-top: 3050px;
+    margin-left: 300px;
+  }
+
+  .five .mask{
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 3050px;
+    margin-left: 300px;
+    text-align: center;
+    width: 400px;
+    height: 618px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .five .mask span{
+    position: relative;
+    margin-top: 250px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .five:hover .mask{
+    opacity: 1;
+  }
+
+  .gay{
+    position: absolute;
+    margin-top: 3150px;
+    margin-left: 750px;
+  }
+
+  .six .mask{
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 3150px;
+    margin-left: 750px;
+    text-align: center;
+    width: 450px;
+    height: 695px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .six .mask span{
+    position: relative;
+    margin-top: 250px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .six:hover .mask{
+    opacity: 1;
+  }
+
+
+  #pro{
+    position: absolute;
+    margin-top: 3850px;
+  }
+
+  #procreate{
+    font-family: 'Comfortaa', cursive;
+    color: #043752;
+    font-weight: 700;
+  }
+
+
+  .myFont9{
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 3900px;
+  }
+
+  .spiral2{
+    position: absolute;
+    margin-top: 4200px;
+    margin-left: 700px;
+  }
+
+  .seven .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 4200px;
+    margin-left: 700px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .seven .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .seven:hover .mask{
+    opacity: 1;
+  }
+
+  .cover{
+    position: absolute;
+    margin-top: 4200px;
+    margin-left: 250px;
+  }
+
+  .eight .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 4200px;
+    margin-left: 250px;
+    text-align: center;
+    width: 400px;
+    height: 618px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .eight .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .eight:hover .mask{
+    opacity: 1;
+  }
+
+  .cover2{
+    position: absolute;
+    margin-top: 4750px;
+    margin-left: 700px;
+  }
+
+  .nine .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 4750px;
+    margin-left: 700px;
+    text-align: center;
+    width: 400px;
+    height: 618px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .nine .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .nine:hover .mask{
+    opacity: 1;
+  }
+
+  .pod{
+    position: absolute;
+    margin-top: 4850px;
+    margin-left: 150px;
+  }
+
+  .ten .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 4850px;
+    margin-left: 150px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .ten .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 130px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .ten:hover .mask{
+    opacity: 1;
+  }
+
+  .nyc{
+    position: absolute;
+    margin-top: 5400px;
+    margin-left: 650px;
+  }
+
+  .eleven .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 5400px;
+    margin-left: 650px;
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .eleven .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 130px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .eleven:hover .mask{
+    opacity: 1;
+  }
+
+  .harry{
+    position: absolute;
+    margin-top: 5400px;
+    margin-left: 200px;
+  }
+
+  .twelve .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 5400px;
+    margin-left: 200px;
+    text-align: center;
+    width: 400px;
+    height: 566px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .twelve .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .twelve:hover .mask{
+    opacity: 1;
+  }  
+
+  .skull{
+    position: absolute;
+    margin-top: 5850px;
+    margin-left: 700px;
+  }
+
+  .thirteen .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 5850px;
+    margin-left: 700px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .thirteen .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .thirteen:hover .mask{
+    opacity: 1;
+  }  
+
+
+  .bangla{
+    position: absolute;
+    margin-top: 6000px;
+    margin-left: 150px;
+  }
+
+  .fourteen .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 6000px;
+    margin-left: 150px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .fourteen .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .fourteen:hover .mask{
+    opacity: 1;
+  }
+
+  .faizan{
+    position: absolute;
+    margin-top: 6400px;
+    margin-left: 750px;
+  }
+
+  .fifteen .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 6400px;
+    margin-left: 750px;
+    text-align: center;
+    width: 400px;
+    height: 495px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .fifteen .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .fifteen:hover .mask{
+    opacity: 1;
+  }
+
+  .mandala{
+    position: absolute;
+    margin-top: 6550px;
+    margin-left: 200px;
+  }
+
+  .sixteen .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 6550px;
+    margin-left: 200px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .sixteen .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 120px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .sixteen:hover .mask{
+    opacity: 1;
+  }
+  .am{
+    position: absolute;
+    margin-top: 6950px;
+    margin-left: 750px;
+  }
+
+  .seventeen .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 6950px;
+    margin-left: 750px;
+    text-align: center;
+    width: 550px;
+    height: 367px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .seventeen .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 120px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .seventeen:hover .mask{
+    opacity: 1;
+  }
+
+  .cmbyn{
+    position: absolute;
+    margin-top: 7100px;
+    margin-left: 250px;
+  }
+
+  .eighteen .mask {
+    display: flex;
+    position:absolute;
+    z-index: 200;
+    margin-top: 7100px;
+    margin-left: 250px;
+    text-align: center;
+    width: 400px;
+    height: 576px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 1s ease-in-out;
+  }
+
+  .eighteen .mask span{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .eighteen:hover .mask{
+    opacity: 1;
+  }
+
+  @media only screen and (max-width:767px){
+    .image{
+      position: absolute;
+      margin-top: 150px;
+      margin-left: 260px;
+      border-radius: 30%;
+    }
+  
+  .me{
+      position: absolute;
+      border-radius: 30%;
+    }
+  
+    .myFont{
+      position: absolute;
+      margin-left: -150px;
+      margin-top: -90px;
+      z-index: 100;
+    }
+  
+    .myFont2{
+      position: absolute;
+      margin-top: -20px;
+      margin-left: -60px;
+      z-index: 100;
+    }
+
+  }
