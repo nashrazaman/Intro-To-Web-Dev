@@ -845,3 +845,37 @@ html, body {
     
 
   }
+
+  @media screen and (max-width: 900px) {
+    .image{
+      margin-top: 150px;
+      margin-left: 200px;
+    }
+
+    .description{
+      margin-top: 300px;
+      margin-left: 600px;
+      width: 660px;
+    }
+
+    #resume{
+      position: absolute;
+      margin-top: 900px;
+      font-size: 15px;
+    }
+
+    .LA{
+      margin-top: 1100px;
+      width: 550px;  
+    }
+
+    .S{
+      
+      margin-left: 900px ;
+      margin-right: 60px;
+      margin-top: 1400px;
+      width: 300px;
+      
+    }
+    
+  }
