@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>JS HW</title>
+    </head>
+    <body>
+        <label for="one">Enter a number: </label>
+        <input type="number" name="bill" id="bill" step="1" min="0" max="500"/>
+        <br/>
+        <br/>
+        <label for="two">Enter another number: </label>
+        <input type="number" name="bill" id="bill" step="1" min="0" max="500"/>
+        <br/>
+        <br/>
+        <button id="add">Add</button>
+        <button id="sub">Subtract</button>
+        <button id="mul">Multiply</button>
+        <button id="div">Divide</button>
+
+        <div id="result">
+            <p id="output"></p>
+        </div>
+
+        <script text="text/javascript">
+        document.addEventListener('DOMContentLoaded', function(){
+            document.getElementById('add').addEventListener('click',add)
+            document.getElementById('sub').addEventListener('click',sub)
+            document.getElementById('mul').addEventListener('click',mul)
+            document.getElementById('div').addEventListener('click',divi)
+        })
+
+        function add(){
+            var output = document.getElementById('output');
+            var one = document.getElementById("one").value
+            var two = document.getElementById("two").value
+
+            var result = one + two
+            output.innerHTML = 'the total is: ' + result
+            
+        }
+
+        function sub(){
+            var output = document.getElementById('output');
+            var one = document.getElementById('one')
+            var two = document.getElementById('two')
+
+            var result = one - two
+            output.innerHTML = 'the total is: ' + result
+        }
+
+        function mul(){
+            var output = document.getElementById('output');
+            var one = document.getElementById('one')
+            var two = document.getElementById('two')
+
+            var result = one * two
+            output.innerHTML = 'the total is: ' + result
+        }
+
+        function divi(){
+            var output = document.getElementById('output');
+            var one = document.getElementById('one')
+            var two = document.getElementById('two')
+
+            var result = one / two
+            output.innerHTML = 'the total is: ' + result
+        }
+
+        </script>
+    </body>
+</html>
