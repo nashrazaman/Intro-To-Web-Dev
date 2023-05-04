@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+}
+
+body{
+    background-color: rgb(248, 230, 200);
+    background-image: url("bg.png");
+    background-size: 600px;
+}
+  
+html {
+    background-size: cover;
+}
+
+.map{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.m1{
+    z-index: 100;
+    transition: all 0s ease-in-out;
+}
+
+.map1{
+    position: absolute;
+    margin-left: 795px;
+    margin-top: 355px;
+    opacity: 0;
+    z-index: 100;
+
+}
+
+.map1:hover{
+    opacity: 1;
+}
+
+.map2{
+    position: absolute;
+    margin-left: 458px;
+    margin-top: 35px;
+    opacity: 0;
+    z-index: 100;
+    transition: all 0s ease-in-out;
+}
+
+.map2:hover{
+    opacity: 1;
+}
+
+.map3{
+    position: absolute;
+    margin-left: 642px;
+    margin-top: 182px;
+    opacity: 0;
+    transition: all 0s ease-in-out;
+}
+.map3:hover{
+    opacity: 1;
+}
+.map4{
+    position: absolute;
+    margin-left: 448px;
+    margin-top: 185px;
+    opacity: 0;
+    z-index: 100;
+    transition: all 0s ease-in-out;
+}
+.map4:hover{
+    opacity: 1;
+}
+.map5{
+    position: absolute;
+    margin-left: 512px;
+    margin-top: 360px;
+    opacity: 0;
+    z-index: 150;
+    transition: all 0s ease-in-out;
+}
+.map5:hover{
+    opacity: 1;
+}
